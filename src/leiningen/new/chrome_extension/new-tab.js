@@ -1,2 +1,2 @@
-{{sanitized}}.new-tab.init();
+{{sanitized}}.new_tab.init();
 

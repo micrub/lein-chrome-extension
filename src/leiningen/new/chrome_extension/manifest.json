@@ -22,6 +22,9 @@
       "run_at": "document_end"
     }
   ],
+  "chrome_url_overrides": {
+    "newtab": "new-tab.html"
+  },
   "background": {
     "scripts": ["{{sanitized}}.js", "background.js"],
     "persistent": false
