@@ -7,4 +7,4 @@
 (defn init []
   (let [bg (runtime/connect)]
     (go (>! bg :lol-i-am-a-new-tab)
-        (console/log "Background said: " (<! bg)))))
+        (console/log "Background said to a new tab: " (<! bg)))))
