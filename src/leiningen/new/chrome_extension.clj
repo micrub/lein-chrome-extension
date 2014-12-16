@@ -1,5 +1,6 @@
 (ns leiningen.new.chrome-extension
-  (:require [leiningen.new.templates :refer [renderer name-to-path sanitize-ns ->files sanitize]]
+  (:require [leiningen.new.templates
+             :refer [renderer name-to-path sanitize-ns ->files sanitize]]
             [clojure.java.io :as io]
             [clojure.string :as string]))
 
